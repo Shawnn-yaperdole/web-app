@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Items List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Items List</h1>
+    
+    <button id="addItemBtn">Add Item</button>
+
+    <div id="itemsList">
+   
+    </div>
+
+   
+    <div id="itemModal" class="modal">
+      <div class="modal-content">
+        <h2 id="modalTitle">Add Item</h2>
+        <label for="itemName">Name:</label>
+        <input type="text" id="itemName">
+        <label for="itemDescription">Description:</label>
+        <textarea id="itemDescription"></textarea>
+        <button id="saveItemBtn">Save</button>
+        <button id="cancelBtn">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
